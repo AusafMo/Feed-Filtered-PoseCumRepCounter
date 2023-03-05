@@ -1,11 +1,8 @@
 # Media-Pipe-Pose-Detection-Model
 
-Name : Mohammad Ausaf
-Contact Number : +91 7007388740
-E-Mail : ausaf9911@gmail.com
-LinkedIn : https://www.linkedin.com/in/mohammad-ausaf/
-Computer vision
-Instruction Doc
+# Computer vision
+
+# Instruction Doc
 
 Operating System : Windows 11
 IDE used : PyCharm
@@ -13,9 +10,13 @@ Language Used : Python 3.9.13
 
 Libraries Used:
 ● OpenCV2
+
 ● Numpy
+
 ● From Datetime, used datetime and timedelta
+
 ● From PyScenedetect used content detector
+
 ● Used Media pipe Pose classification model as advised
 
 NOTE : You can install PySceneDetect package within PyCharm with
