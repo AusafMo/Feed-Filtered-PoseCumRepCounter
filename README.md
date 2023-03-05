@@ -17,9 +17,13 @@ Libraries Used:
 ● From Datetime, used datetime and timedelta
 ● From PyScenedetect used content detector
 ● Used Media pipe Pose classification model as advised
+
 NOTE : You can install PySceneDetect package within PyCharm with
 name of “scenedetect”, or if you want to pip install look here.
+
+
 LOGICAL Flow: (Import all the Libraries)
+
 For handling fluctuations:
 1) Using scenedetector to grab location of cutscenes
 2) Store this cutscene frames in a list (say delete) (starting
