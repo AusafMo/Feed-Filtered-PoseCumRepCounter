@@ -5,7 +5,7 @@ Operating System : Windows 11
 IDE used : PyCharm
 Language Used : Python 3.9.13
 
-Libraries Used:
+**Libraries Used:**
 
 ● OpenCV2
 
@@ -17,13 +17,14 @@ Libraries Used:
 
 ● Used Media pipe Pose classification model as advised
 
-NOTE : You can install PySceneDetect package within PyCharm with
+**NOTE** : You can install PySceneDetect package within PyCharm with
 name of “scenedetect”, or if you want to pip install look here.
 
 
-LOGICAL Flow: (Import all the Libraries)
+**LOGICAL Flow:**
+(Import all the Libraries)
 
-For handling fluctuations:
+***For handling fluctuations:***
 1) Using scenedetector to grab location of cutscenes
 2) Store this cutscene frames in a list (say delete) (starting
 from the location and till the (current frames + fps) is
@@ -37,7 +38,7 @@ enters the detection algorithm.
 frame belongs to deleted frames, if no, continue with
 detection other wise skip.
 
-For detection:
+***For detection:***
 1) While the capture device is opened, perform landmarks
 detection with media pipe pose detection
 2) Get the coordinates of the detected landmarks
@@ -61,7 +62,8 @@ your knee bent”
 of the loop, and close the windows, while releasing the
 capture device.
 
-Result:
+**Result:**
+
 As the Pose detection algorithm has 3 complexities, the counts vary
 accordingly, note that the complexity increment does increases
 detection accuracy, however, higher complexity is very RAM
@@ -71,11 +73,11 @@ and tracking confidence values are 0.8 and 0.5 respectively.
 The number of successful reps counts for all the complexity
 levels are:
 
-1) For model complexity = 1 (default), rep counts are 12
-2) For model complexity = 0 (lower accuracy), rep counts
-are 13
-3) For model complexity = 2(higher accuracy), rep counts
-are 14
+***1) For model complexity = 1 (default), rep counts are 12
+***2) For model complexity = 0 (lower accuracy), rep counts
+are 13.***
+***3) For model complexity = 2(higher accuracy), rep counts
+are 14.***
 
 Further improvements possible:
 
