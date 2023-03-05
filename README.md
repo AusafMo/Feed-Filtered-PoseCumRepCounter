@@ -1,14 +1,12 @@
-# Media-Pipe-Pose-Detection-Model
+# Computer vision Media-Pipe-Pose-Detection-Model
 
-# Computer vision
-
-# Instruction Doc
 
 Operating System : Windows 11
 IDE used : PyCharm
 Language Used : Python 3.9.13
 
 Libraries Used:
+
 ● OpenCV2
 
 ● Numpy
