@@ -1,8 +1,10 @@
-# Computer vision Media-Pipe-Pose-Detection-Model
+# Computer vision Media Pipe Pose Detection Model
 
 
 Operating System : Windows 11
+
 IDE used : PyCharm
+
 Language Used : Python 3.9.13
 
 **Libraries Used:**
@@ -73,9 +75,11 @@ and tracking confidence values are 0.8 and 0.5 respectively.
 The number of successful reps counts for all the complexity
 levels are:
 
-***1) For model complexity = 1 (default), rep counts are 12
+***1) For model complexity = 1 (default), rep counts are 12.***
+
 ***2) For model complexity = 0 (lower accuracy), rep counts
 are 13.***
+
 ***3) For model complexity = 2(higher accuracy), rep counts
 are 14.***
 
