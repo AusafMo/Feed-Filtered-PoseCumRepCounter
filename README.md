@@ -70,8 +70,7 @@ capture device.
 
 As the Pose detection algorithm has 3 complexities, the counts vary
 accordingly, note that the complexity increment does increases
-detection accuracy, however, higher complexity is very RAM
-intensive, so frame rates will take a hit, the default detection
+detection accuracy, however, higher complexity is very CPU intensive, so frame rates will take a hit, the default detection
 complexity = 1, does work fine. For pose detection the min detection
 and tracking confidence values are 0.8 and 0.5 respectively.
 The number of successful reps counts for all the complexity
