@@ -12,7 +12,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 
-# Getting the sene_list for the video
+# Getting the scene_list for the video
 
 scene_list = detect('C:/Users/ausaf/Downloads/KneeBendVideo.mp4', ContentDetector( threshold = 20))
 # printing the scene_list in
