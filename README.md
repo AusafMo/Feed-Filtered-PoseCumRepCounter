@@ -1,4 +1,4 @@
-# Computer Vision Media Pipe Pose Detection Model
+# Computer Vision Media Pipe Pose Estimation
 ***Sample Used and result**
 
 **https://drive.google.com/file/d/1OnshtoOHzSiPSOI051Nj_IW7K8MUjuMl/view?usp=share_link**
